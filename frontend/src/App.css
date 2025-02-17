@@ -1,0 +1,32 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom styles for note cards */
+.MuiCard-root {
+  margin: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add note button styling */
+.add-note-button {
+  margin-top: 16px !important;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 600px) {
+  .MuiGrid-item {
+    width: 100%;
+  }
+}
+
+/* Text field styling */
+.note-input {
+  margin-bottom: 16px;
+}
